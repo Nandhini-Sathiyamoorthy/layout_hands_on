@@ -1,0 +1,140 @@
+.grid-container {
+  display: grid;
+  width: 55vw;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+}
+
+.outer-container {
+  background-color: bisque;
+  width: 25vw;
+  height: 80vh;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.logo-container {
+  background-color: cadetblue;
+  height: 10%;
+}
+
+.navigation {
+  background-color: orchid;
+  height: 7%;
+}
+
+.header {
+  background-color: aqua;
+  height: 15%;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 58%;
+}
+
+.sidebar {
+  background-color: coral;
+  width: 25%;
+}
+
+.bodycontent {
+  background-color: burlywood;
+  width: 75%;
+}
+
+.footer {
+  background-color: brown;
+  height: 10%;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.intro-textarea {
+  background-color: rgb(144, 109, 177);
+  height: 12%;
+}
+
+.contentbox-container {
+  height: 53%;
+}
+
+.box-1 {
+  width: 33.3%;
+  background-color: teal;
+}
+
+.box-2 {
+  width: 33.3%;
+  background-color: rgb(112, 143, 201);
+}
+
+.box-3 {
+  width: 33.3%;
+  background-color: skyblue;
+}
+
+.table-3-sidebar {
+  height: 80%;
+}
+
+.sidebar-2 {
+  width: 30%;
+  background-color: rgb(177, 216, 138);
+}
+
+.header-2 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.banner {
+  height: 25%;
+  background-color: rgb(167, 145, 117);
+}
+
+.bodycontent-2 {
+  height: 75%;
+  background-color: rgb(241, 243, 93);
+}
+
+.table-4-box-height {
+  height: 60%;
+  flex-wrap: wrap;
+}
+
+.table-4-box-1 {
+  height: 35%;
+  width: 25%;
+  background-color: rgb(236, 157, 217);
+}
+
+.table-4-box-2 {
+  height: 35%;
+  width: 25%;
+  background-color: rgb(216, 87, 199);
+}
+
+.table-4-box-3 {
+  height: 35%;
+  width: 25%;
+  background-color: rgb(216, 17, 173);
+}
+
+.container-height {
+  height: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    display: block;
+    width: 55vw;
+    margin: auto;
+  }
+}
