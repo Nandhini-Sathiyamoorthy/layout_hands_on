@@ -131,8 +131,3 @@
   height: 20%;
 }
 
-@media only screen and (max-width: 600px) {
-  .grid-container {
-    display: none;
-  }
-}
